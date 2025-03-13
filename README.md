@@ -36,6 +36,15 @@ This project template includes:
 1. Within this folder, rename the "test_hello_world.py" file and edit it to suite your project.
 2. Add more tests to this folder when needed.  All tests must have the "test_" prefix in their name.
 
+##### .git/:
+
+1. Delete the ".git" directory.
+2. (Optional) Create a new Git repository for your project.
+
+```bash
+git init -b main
+```
+
 ## Quickstart
 
 #### 1.&nbsp; Install Python and Git.
