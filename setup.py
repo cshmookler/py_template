@@ -8,8 +8,7 @@ placeholder_version: str = "0.0.0"
 
 
 def get_version_from_git() -> str:
-    """
-    Attempts to retrieve the project version from Git.
+    """Attempts to retrieve the project version from Git.
 
     Returns:
         str: The project version from Git or a placeholder version if Git is not installed or there aren't any tags.

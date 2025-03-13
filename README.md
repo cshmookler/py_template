@@ -4,6 +4,7 @@ A template for modern Python libraries. Uses pytest for unit testing and setupto
 
 This project template includes:
 
+- An example package and test that follow [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) for documenting modules.
 - A prewritten setup.py file for installation with pip.
 - Automatic versioning through introspection of the latest [Git](https://git-scm.com/) tag.
     - Set by creating a [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (the name of the tag is the version).
