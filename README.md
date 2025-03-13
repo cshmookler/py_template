@@ -9,7 +9,7 @@ This project template includes:
     - Set by creating a [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (the name of the tag is the version).
     - Accessible within the code via the "version" namespace.
     - A placeholder version "0.0.0" is used when there are no Git tags or Git is not installed.
-- An prewritten [README.md](https://en.wikipedia.org/wiki/README) file with detailed installation instructions.
+- A prewritten [README.md](https://en.wikipedia.org/wiki/README) file with detailed installation instructions.
 - A [gitignore](https://github.com/github/gitignore) file for Python.
 
 ## Configure this template
