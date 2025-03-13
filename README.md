@@ -10,7 +10,6 @@ This project template includes:
     - Accessible within the code via the "version" namespace.
     - A placeholder version "0.0.0" is used when there are no Git tags or Git is not installed.
 - An prewritten [README.md](https://en.wikipedia.org/wiki/README) file with detailed installation instructions.
-- An example sub-project to demo how other programs can use your project (if it's a library).
 - A [gitignore](https://github.com/github/gitignore) file for Python.
 
 ## Configure this template
