@@ -74,8 +74,6 @@ pip install .
 
 #### 4.&nbsp; (Optional) Run all tests.
 
-[pytest](https://pypi.org/project/pytest/) must be installed to run tests.
-
 ```bash
 pytest
 ```
