@@ -26,6 +26,7 @@ def get_version_from_git() -> str:
 
 setup(
     name="py_template",
+    url="https://github.com/cshmookler/py_template",
     version=get_version_from_git(),
     author="Caden Shmookler",
     author_email="cshmookler@gmail.com",
