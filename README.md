@@ -22,6 +22,11 @@ This project template includes:
 3. Completely remove the "Setup" section (do this last if you are still following these instructions).
 4. Edit the "Quickstart" section to suite your project.
 
+##### LICENSE:
+
+1. Change my name (Caden Shmookler) to yours.
+2. (Optional) Remove the LICENSE file entirely or replace it with another.
+
 ##### setup.py:
 
 1. Edit the fields in the call to "setup" to suite your project.
