@@ -10,45 +10,35 @@ This project template includes:
     - Set by creating a [Git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (the name of the tag is the version).
     - Accessible within the code via the "version" namespace.
     - A placeholder version "0.0.0" is used when there are no Git tags or Git is not installed.
-- Prewritten [README.md](https://en.wikipedia.org/wiki/README), [CONTRIBUTING.md](https://github.blog/news-insights/the-library/contributing-guidelines/),  [gitignore](https://github.com/github/gitignore), and Zlib license files.
+- Prewritten [README.md](https://en.wikipedia.org/wiki/README), [CONTRIBUTING.md](https://github.blog/news-insights/the-library/contributing-guidelines/),  and [gitignore](https://github.com/github/gitignore) files.
 
 ## Configure this template
 
-##### README.md:
+Configurable fields are labelled with "TODO" tags.  Delete each TODO tag and configure each field that they refer to.  Use Ctrl-F "TODO" in each file to find these tags.
 
-1. Replace the project name with the name of your project.
-2. Replace the first section with a description of your project.
-3. Completely remove the "Setup" section (do this last if you are still following these instructions).
-4. Edit the "Quickstart" section to suite your project.
+The following files contain TODO tags for fields that need to be configured:
+- setup.py
+- README.md
 
-##### LICENSE:
+Once all TODO tags have been removed:
+- Rename the 'example' directory to the name of your package.
+    - Make sure the 'packages' field in setup.py matches the name of this directory.
+- Delete the LICENSE file and replace it with your own license.
+    - (Optional) Add a 'license' field to the setup() call in setup.py.
+- Delete the '.git' directory and [initialize a new Git repository](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+    - NOTE: Declare versions by creating [Git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (you need at least one commit in the Git repository to create a tag).
 
-1. Change my name (Caden Shmookler) to yours.
-2. (Optional) Remove the LICENSE file entirely or replace it with another.
+Finally, delete these instructions from the README.
 
-##### setup.py:
 
-1. Edit the fields in the call to "setup" to suite your project.
-2. The list of classifiers is optional and only relevant if you are uploading your project to [PyPI](https://pypi.org/).
 
-##### py_template/:
 
-1. Rename this folder to the name of your project.
-2. Within this folder, rename the "hello_world.py" file and edit it to suite your project.
 
-##### tests/:
+# TODO: SET THE PROJECT NAME
+# **Example**
 
-1. Within this folder, rename the "test_hello_world.py" file and edit it to suite your project.
-2. Add more tests to this folder when needed.  All tests must have the "test_" prefix in their name.
-
-##### .git/:
-
-1. Delete the ".git" directory.
-2. (Optional) Create a new Git repository for your project.
-
-```bash
-git init -b main
-```
+# TODO: Write the project description
+Write a description of your project here.
 
 ## Quickstart
 
@@ -75,9 +65,10 @@ sudo pacman -S python git
 
 #### 2.&nbsp; Clone this project and enter its root directory.
 
+# TODO: SET THE GIT LINK AND PROJECT NAME
 ```bash
-git clone https://github.com/cshmookler/py_template
-cd py_template
+git clone https://gitlab.com/user/proj_name.git
+cd proj_name
 ```
 
 #### 3.&nbsp; Install this library globally.

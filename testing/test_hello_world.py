@@ -1,4 +1,4 @@
-from py_template import hello_world
+from example import hello_world
 
 
 def test_hello_world_default_sep():

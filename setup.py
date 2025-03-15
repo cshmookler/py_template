@@ -25,18 +25,19 @@ def get_version_from_git() -> str:
 
 # https://python-packaging.readthedocs.io/en/latest/
 
-
+# TODO: Replace the following fields with information specific to your project.
+# Configuring some fields is optional; including 'version', 'install_requires', and 'classifiers'.
 setup(
-    name="py_template",
-    url="https://github.com/cshmookler/py_template",
+    name="example",
+    url="https://gitlab.com/user/project",
     version=get_version_from_git(),
-    author="Caden Shmookler",
-    author_email="cshmookler@gmail.com",
-    description="A modern template for Python libraries",
-    packages=["py_template"],
+    author="Firstname Lastname",
+    author_email="name@example.com",
+    description="Write a short description of your project here",
+    packages=["example"],
     install_requires=["pytest"],
     classifiers=[  # The full list of classifiers is at https://pypi.org/classifiers/
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
     ],
