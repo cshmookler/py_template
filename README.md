@@ -23,6 +23,7 @@ The following files contain TODO tags for fields that need to be configured:
 Once all TODO tags have been removed:
 - Rename the 'example' directory to the name of your package.
     - Make sure the 'packages' field in setup.py matches the name of this directory.
+    - Any importable (functions or classes) that are imported in the '\_\_init\_\_.py' file will be made top-level importables in the package.
 - Delete the LICENSE file and replace it with your own license.
     - (Optional) Add a 'license' field to the setup() call in setup.py.
 - Delete the '.git' directory and [initialize a new Git repository](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
