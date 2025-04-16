@@ -78,8 +78,9 @@ cd proj_name
 pip install .
 ```
 
-#### 4.&nbsp; (Optional) Run all tests.
+#### 4.&nbsp; (Optional) Install [pytest](https://docs.pytest.org/en/stable/) and run all tests.
 
 ```bash
+pip install pytest
 pytest
 ```
