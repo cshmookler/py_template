@@ -12,47 +12,26 @@ This project template includes:
     - A placeholder version "0.0.0" is used when there are no Git tags or Git is not installed.
 - Prewritten [README.md](https://en.wikipedia.org/wiki/README), [CONTRIBUTING.md](https://github.blog/news-insights/the-library/contributing-guidelines/),  and [gitignore](https://github.com/github/gitignore) files.
 
-## Configure this template
-
-Configurable fields are labelled with "TODO" tags.  Delete each TODO tag and configure each field that they refer to.  Use Ctrl-F "TODO" in each file to find these tags.
-
-The following files contain TODO tags for fields that need to be configured:
-- setup.py
-- README.md
-
-Once all TODO tags have been removed:
-- Rename the 'example' directory to the name of your package.
-    - Make sure the 'packages' field in setup.py matches the name of this directory.
-    - Any importable (functions or classes) that are imported in the '\_\_init\_\_.py' file will be made top-level importables in the package.
-- Delete the LICENSE file and replace it with your own license.
-    - (Optional) Add a 'license' field to the setup() call in setup.py.
-- Delete the '.git' directory and [initialize a new Git repository](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-    - NOTE: Declare versions by creating [Git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (you need at least one commit in the Git repository to create a tag).
-
-Finally, delete these instructions from the README.
-
-
-
-
-
-# TODO: SET THE PROJECT NAME
-# **Example**
-
-# TODO: Write the project description
-Write a description of your project here.
-
-## Quickstart
+## Setup
 
 #### 1.&nbsp; Install Python and Git.
 
 ##### Windows:
 
-2. [Python](https://python.org/downloads/) (interpreted scripting language)
+1. [Python](https://python.org/downloads/) (interpreted scripting language)
     - Select the "Add python.exe to PATH" option.
     - Before closing the setup wizard after setup, click the "Disable path length limit" button.
-1. [Git](https://git-scm.com/downloads/) (distributed version control)
+2. [Git](https://git-scm.com/downloads/) (distributed version control)
 
 ##### MacOS:
+
+Install [Homebrew](https://brew.sh/) (package manager for Mac) by opening a terminal and entering the following command:
+
+```zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Use Homebrew to install Git, Python, and GCC (C++ compiler):
 
 ```zsh
 brew install python git
@@ -64,23 +43,45 @@ brew install python git
 sudo pacman -S python git
 ```
 
-#### 2.&nbsp; Clone this project and enter its root directory.
+#### 2.&nbsp; Clone this template and enter its root directory.
 
-# TODO: SET THE GIT LINK AND PROJECT NAME
-```bash
-git clone https://gitlab.com/user/proj_name.git
-cd proj_name
-```
-
-#### 3.&nbsp; Install this library globally.
+Open command prompt (Windows) or a shell (Linux & Mac) and enter the commands below. The template will be downloaded to the current working directory.
 
 ```bash
-pip install .
+git clone https://github.com/cshmookler/py_template.git
+cd py_template
 ```
 
-#### 4.&nbsp; (Optional) Install [pytest](https://docs.pytest.org/en/stable/) and run all tests.
+#### 3.&nbsp; Edit "template_config.ini" to suit your project
+
+Any text editor (Notepad, TextEdit, Nano, Vim, etc.) can be used as long as the file name and format are not changed.
+
+##### Windows:
+
+```shell
+notepad template_config.ini
+```
+
+##### Mac:
+
+```zsh
+open -t template_config.ini
+```
+
+##### Linux:
 
 ```bash
-pip install pytest
-pytest
+nano template_config.ini
 ```
+
+#### 4.&nbsp; Configure this template
+
+Use Python to execute the "config.py" script. Use command prompt (Windows) or a shell (Mac & Linux) so errors are shown.
+
+```
+python config.py
+```
+
+If errors occur, troubleshoot to isolate the issue and repeat steps 2-4.
+
+If the script successfully completes without errors, re-open this README file. A new README for your project will have been generated in its place.

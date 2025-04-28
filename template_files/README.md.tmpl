@@ -1,0 +1,46 @@
+# **{{ project_name }}**
+
+{{ description }}
+
+## Quickstart
+
+#### 1.&nbsp; Install Python and Git.
+
+##### Windows:
+
+1. [Python](https://python.org/downloads/) (interpreted scripting language)
+    - Select the "Add python.exe to PATH" option.
+    - Before closing the setup wizard after setup, click the "Disable path length limit" button.
+2. [Git](https://git-scm.com/downloads/) (distributed version control)
+
+##### MacOS:
+
+```zsh
+brew install python git
+```
+
+##### Linux (Arch):
+
+```bash
+sudo pacman -S python git
+```
+
+#### 2.&nbsp; Clone this project and enter its root directory.
+
+```bash
+git clone {{ git_url }}
+cd {{ project_name }}
+```
+
+#### 3.&nbsp; Install this library globally.
+
+```bash
+pip install .
+```
+
+#### 4.&nbsp; (Optional) Install [pytest](https://docs.pytest.org/en/stable/) and run all tests.
+
+```bash
+pip install pytest
+pytest
+```
